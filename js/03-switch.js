@@ -12,7 +12,6 @@ do {
         case "1":
         case 1: 
         alert(`Tu saldo actual es $ ${saldo}`)    
-            
             break;
         case "2":
         case "deposito":
@@ -37,3 +36,4 @@ do {
             break;
     }
 } while (confirm("Queres realizar otra operacion"));
+
