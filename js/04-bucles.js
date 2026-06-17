@@ -15,14 +15,24 @@ agregar una linea que haga que la condicion logica deje de cumplirse en algun mo
     contador++;
 } */
 
-const pantalla = document.getElementById('pantalla');
+//const pantalla = document.getElementById('pantalla');
 
 /* do {
     pantalla.innerHTML += `<p>Fila ${contador}</p>`;
     contador++;
 } while (contador <= 50); */
 
-for (let contador = 1; contador <=30 ; contador++) {
+/* for (let contador = 1; contador <=30 ; contador++) {
+ pantalla.innerHTML += `<p>Fila ${contador}</p>`;
+} */
 
-    pantalla.innerHTML += `<p>Fila ${contador}</p>`;
-}
+
+//const palabra = prompt('Ingrese una palabra').toLowerCase()
+
+const palabra = "Daniela";
+
+console.log(palabra.length);
+console.log(palabra.charAt(2));
+
+
+
